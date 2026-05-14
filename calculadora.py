@@ -1,1 +1,6 @@
-
+def multiplicacion (a,b):
+    return a*b
+def division (a,b):
+    if b==0:
+        return "Error, division por 0"
+    return a/b
